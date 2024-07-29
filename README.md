@@ -66,35 +66,35 @@ python ccwc.py test.txt
 This will output the number of bytes in `test.txt`.
 
 ```bash
-ccwc.py -c test.txt
+python ccwc.py -c test.txt
  342190 test.txt
 ```
 
 This will output the number of lines in `test.txt`.
 
 ```bash
-ccwc.py -l test.txt
+python ccwc.py -l test.txt
  7145 test.txt
 ```
 
 This will output the number of words in `test.txt`.
 
 ```bash
-ccwc.py -l test.txt
+python ccwc.py -l test.txt
  58164 test.txt
 ```
 
 This will output the number of characters in `test.txt`.
 
 ```bash
-ccwc.py -c test.txt
+python ccwc.py -c test.txt
  339292 test.txt
 ```
 
 This will run using standard input, since no filename is provided
 
 ```bash
-cat test.txt | ccwc -l
+cat test.txt | python ccwc -l
  7145
 ```
 
